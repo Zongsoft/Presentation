@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zongsoft.Presentation", "src\Zongsoft.Presentation.csproj", "{691C94C4-06E2-449B-8A84-87938A3256BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zongsoft.Presentation", "src\Zongsoft.Presentation.csproj", "{691C94C4-06E2-449B-8A84-87938A3256BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+		RESX_AutoCreateNewLanguageFiles = False
+		RESX_ExcelExportMode = MultipleSheets
 		SolutionGuid = {3BCEDE28-9793-4884-AE31-5D8AAB8F6DD5}
 	EndGlobalSection
 EndGlobal
